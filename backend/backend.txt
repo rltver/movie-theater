@@ -1,0 +1,26 @@
+MOVIES:
+All (para el admin)
+where is_active=true INFO: Movie + Sessions (cartelera activa)
+where id= ? INFO: MOvie + Sessiones (pelicula especifica)
+
+INSERT ONE
+UPDATE ONE except is_active
+UPDATE ONE only poster
+
+ROOMS:
+All (para el admin)
+where is_active=true (asientos funcionales)
+
+SEATS:
+All where id_room=?
+
+SESSIONS:
+???
+
+TICKETS:
+All where id_session=?
+
+USERS:
+where email AND pass
+
+
