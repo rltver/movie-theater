@@ -10,17 +10,28 @@ UPDATE ONE only poster
 ROOMS:
 All (para el admin)
 where is_active=true (asientos funcionales)
+UPDATE is_active
 
 SEATS:
 All where id_room=?
+UPDATE is_active
 
 SESSIONS:
 ???
 
+INSERT MANY where id_movie
+UPDATE MANY where id_movie
+--- SEND EMAIL ---
+
 TICKETS:
 All where id_session=?
+INSERT ONE (comprar)
+DELETE ONE (reembolsar)
+--- MÉTODO DE PAGO ---
 
 USERS:
 where email AND pass
+FORGOT YOUR PASSWORD
+--- LOG IN WITH GOOGLE --- 
 
 
