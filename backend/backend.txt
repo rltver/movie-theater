@@ -35,3 +35,8 @@ FORGOT YOUR PASSWORD
 --- LOG IN WITH GOOGLE --- 
 
 
+SERVICES PER PAGES
+index: movies where is_active=true INFO: Movie + Sessions (active listings)
+
+movie: movie where id= ? INFO: MOvie + Sessiones (1 movie)
+
